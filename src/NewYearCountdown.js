@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Countdown from 'react-countdown';
 import Confetti from 'react-dom-confetti';
 
-const NewYearCountdown = () => {
+function NewYearCountdown() {
     const [countdownCompleted, setCountdownCompleted] = useState(false);
 
     // Function to be called when the countdown completes
@@ -21,7 +21,8 @@ const NewYearCountdown = () => {
     // Function to render the "Happy New Year" message
     const renderNewYearMessage = () => (
         <div>
-            <h1 className='text-7xl font-bold'>Happy New Year!</h1>
+
+            <h1 className='text-7xl font-bold'>Happy New Year Fam❤️</h1>
         </div>
     );
 
@@ -45,10 +46,15 @@ const NewYearCountdown = () => {
     return (
         <div className='items-center text-7xl font-bold mb-10'>
             {/* Countdown component */}
+            {
+            }
             {!countdownCompleted && (
-                <Countdown date={`01/01/${new Date().getFullYear() + 1}`} onComplete={handleCountdownComplete}>
-                    {renderCountdown}
-                </Countdown>
+                <div>
+                    <h1 className='text-3xl tracking-wider'>😊2023 Has Been Awesome🥳</h1>
+                    <Countdown className='shadow-lg p-2 rounded-md' date={`01/01/${new Date().getFullYear() + 1}`} onComplete={handleCountdownComplete}>
+                        {renderCountdown}
+                    </Countdown>
+                </div>
             )}
 
             {/* Confetti component */}

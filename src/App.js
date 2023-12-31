@@ -10,7 +10,7 @@ function App() {
       <div className='flex-column text-center p-5'>
         <img src='./moon-logo-new.png' alt='logo' className='h-40 w-40 rounded-sm mx-auto mb-5' />
         <h1 className='text-7xl font-bold mb-4'>Moon Studios Empire</h1>
-        <p className='text-4xl tracking-wider mb-8'>Celebrate the New Year with us!</p>
+        <p className='text-4xl tracking-wider mb-8'>Celebrate the New Year with us🎉</p>
         <NewYearCountdown />
       </div>
       <Socials />

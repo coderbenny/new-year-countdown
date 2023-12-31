@@ -5,26 +5,26 @@ const allLinks = [
         id: 1,
         siteName: "facebook",
         image: "/facebook.svg",
-        link: "www.facebook.com/benny.hinn.792303"
+        link: "https://www.facebook.com/benny.hinn.792303"
     },
     {
         id: 2,
         siteName: "instagram",
         image: "/instagram.svg",
-        link: "www.instagram.com/_bennyonthebeat"
+        link: "https://www.instagram.com/_bennyonthebeat"
     },
     {
         id: 3,
         siteName: "youtube",
         image: "/youtube.svg",
-        link: "www.youtube.com/@MoonStudiosEmpire"
+        link: "https://www.youtube.com/@MoonStudiosEmpire"
     },
 
     {
         id: 4,
         siteName: "tiktok",
         image: "/tiktok.svg",
-        link: "www.tiktok.com/_bennyonthebeat"
+        link: "https://www.tiktok.com/_bennyonthebeat"
     }
 ]
 
@@ -35,11 +35,20 @@ function Socials() {
     function handleClick(e) {
         const social = (e.target.alt);
 
+        const isValidUrl = /^(https?:\/\/)/.test(social);
+
+        if (isValidUrl) {
+            window.location.href = social;
+        } else {
+            console.error(`Invalid URL: ${social}`);
+        }
+
+
     }
 
     return (
         <div className="w-[250px] bg-white items-center justify-center mb-10 p-2 shadow-lg mx-auto rounded-lg">
-            <h1 className="font-bold text-center mb-2 text-black shadow-lg">Follow us on Socials</h1>
+            <h1 className="font-bold text-center mb-2 text-black shadow-lg">Follow our Socials</h1>
 
             <div className="flex justify-center mx-auto p-2">
                 {allLinks.map((item) => {
