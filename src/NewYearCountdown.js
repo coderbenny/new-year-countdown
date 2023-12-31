@@ -50,11 +50,12 @@ function NewYearCountdown() {
             }
             {!countdownCompleted && (
                 <div>
-                    <h1 className='text-lg md:text-4xl tracking-wider'>😊Countdown To 2024🥳
+                <h1 className='text-4xl md:text-7xl font-bold'>Happy New Year Fam❤️</h1>
+                    <h1 className='text-lg md:text-4xl tracking-wider'>😊Welcome To 2024🥳
                     </h1>
-                    <Countdown className='shadow-lg p-2 rounded-md text-5xl md:text-8xl' date={`01/01/${new Date().getFullYear() + 1}`} onComplete={handleCountdownComplete}>
-                        {renderCountdown}
-                    </Countdown>
+                    // <Countdown className='shadow-lg p-2 rounded-md text-5xl md:text-8xl' date={`01/01/${new Date().getFullYear() + 1}`} onComplete={handleCountdownComplete}>
+                    //     {renderCountdown}
+                    // </Countdown>
                 </div>
             )}
 
