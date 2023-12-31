@@ -20,7 +20,6 @@ This simple website displays a countdown to the New Year, creating anticipation 
 - react-countdown
 - react-dom-confetti
 - Tailwind CSS
-- Contributing
 
 ### Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.
 
