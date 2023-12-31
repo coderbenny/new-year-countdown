@@ -13,24 +13,18 @@ This simple website displays a countdown to the New Year, creating anticipation 
 
 ## Demo
 
-Check out the live demo of the New Year Countdown Website: [Live Demo](https://new-year-countdown-2tds.onrender.com/) -->
+### Check out the live demo of the New Year Countdown Website: [Live Demo](https://new-year-countdown-2tds.onrender.com/)
 
+## Technologies Used
+- React
+- react-countdown
+- react-dom-confetti
+- Tailwind CSS
+- Contributing
 
+### Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.
 
-
-<!-- ## Demo
-
-Check out the live demo of the New Year Countdown Website: [Live Demo](#insert-live-demo-link-here) -->
-
-<!-- ## Screenshots
-
-![Screenshot](/screenshots/screenshot.png) -->
-
-<!-- ## Getting Started
-
-To run the project locally, follow these steps:
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/new-year-countdown.git -->
+## Author
+[Benny Hinn]
+GitHub: www.github.com/coderbenny
+LinkedIn: linkedin.com/in/benny-mathew
