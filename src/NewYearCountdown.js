@@ -12,7 +12,7 @@ const NewYearCountdown = () => {
 
     // Function to render the countdown component
     const renderCountdown = ({ hours, minutes, seconds }) => (
-        <div className='text-5xl'>
+        <div className='text-9xl'>
             <h1 className=' font-bold'>New Year Countdown</h1>
             <p className='font-bold'>{`${hours} hours, ${minutes} minutes, ${seconds} seconds`}</p>
         </div>
@@ -43,7 +43,7 @@ const NewYearCountdown = () => {
     }, [countdownCompleted]);
 
     return (
-        <div className='items-center text-7xl font-bold'>
+        <div className='items-center text-7xl font-bold mb-10'>
             {/* Countdown component */}
             {!countdownCompleted && (
                 <Countdown date={`01/01/${new Date().getFullYear() + 1}`} onComplete={handleCountdownComplete}>
