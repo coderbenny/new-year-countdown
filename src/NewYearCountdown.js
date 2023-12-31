@@ -3,7 +3,7 @@ import Countdown from 'react-countdown';
 import Confetti from 'react-dom-confetti';
 
 function NewYearCountdown() {
-    const [countdownCompleted, setCountdownCompleted] = useState(false);
+    const [countdownCompleted, setCountdownCompleted] = useState(true);
 
     // Function to be called when the countdown completes
     const handleCountdownComplete = () => {
@@ -22,7 +22,7 @@ function NewYearCountdown() {
     const renderNewYearMessage = () => (
         <div>
 
-            <h1 className='text-7xl font-bold'>Happy New Year Fam❤️</h1>
+            <h1 className='text-4xl md:text-7xl font-bold'>Happy New Year Fam❤️</h1>
         </div>
     );
 
@@ -50,8 +50,9 @@ function NewYearCountdown() {
             }
             {!countdownCompleted && (
                 <div>
-                    <h1 className='text-3xl tracking-wider'>😊2023 Has Been Awesome🥳</h1>
-                    <Countdown className='shadow-lg p-2 rounded-md' date={`01/01/${new Date().getFullYear() + 1}`} onComplete={handleCountdownComplete}>
+                    <h1 className='text-lg md:text-4xl tracking-wider'>😊Countdown To 2024🥳
+                    </h1>
+                    <Countdown className='shadow-lg p-2 rounded-md text-5xl md:text-8xl' date={`01/01/${new Date().getFullYear() + 1}`} onComplete={handleCountdownComplete}>
                         {renderCountdown}
                     </Countdown>
                 </div>
