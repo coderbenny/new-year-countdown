@@ -3,7 +3,7 @@ import Countdown from 'react-countdown';
 import Confetti from 'react-dom-confetti';
 
 function NewYearCountdown() {
-    const [countdownCompleted, setCountdownCompleted] = useState(false);
+    const [countdownCompleted, setCountdownCompleted] = useState(true);
 
     // Function to be called when the countdown completes
     const handleCountdownComplete = () => {
