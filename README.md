@@ -27,4 +27,4 @@ This simple website displays a countdown to the New Year, creating anticipation 
 ## Author
 [Benny Hinn]
 GitHub: www.github.com/coderbenny
-LinkedIn: linkedin.com/in/benny-mathew
+LinkedIn: www.linkedin.com/in/benny-mathew
